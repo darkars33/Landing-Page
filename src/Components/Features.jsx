@@ -12,11 +12,11 @@ const Features = () => {
                     <img src={m1} alt="" className='h-[500px] rounded-lg'/>
           </div>
           <div className='w-[50%] flex flex-col gap-6 md:w-[100%]'>
-                    <div>
+                    <div className='fv:text-center'>
                               <h1 className='text-[1.5rem] text-red-500'>FEATURES</h1>
                               <h1 className='text-[3.5rem] font-bold'>Uifry Premium</h1>
                     </div>
-                    <div className='flex flex-col gap-6'>
+                    <div className='flex flex-col gap-6 fv:text-justify'>
                               <div className='flex flex-col gap-3'>
                                         <h1 className='text-[1.2rem] font-bold flex gap-2 items-center'> <GiStarShuriken className='text-red-500' /> Budgeting Intervals</h1>
                                         <h1 className='text-[0.9rem] text-slate-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus illo temporibus iusto explicabo ipsum!</h1>
